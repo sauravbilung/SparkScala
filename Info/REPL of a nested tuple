@@ -1,0 +1,13 @@
+How to decode the syntax in scala :
+
+scala> val t = ((1, 2), 3)
+t: ((Int, Int), Int) = ((1,2),3)
+
+scala> t._1  // Get the first part of the tuple
+res0: (Int, Int) = (1,2)
+
+scala> t._2  // Get the second part of the tuple
+res1: Int = 3
+
+scala> t._1._1  // Get the first part of the first part
+res2: Int = 1
