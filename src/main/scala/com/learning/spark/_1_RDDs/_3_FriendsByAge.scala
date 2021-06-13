@@ -1,7 +1,7 @@
-package com.learning.spark
+package com.learning.spark._1_RDDs
 
-import org.apache.spark._
 import org.apache.log4j._
+import org.apache.spark._
 
 /** Compute the average number of friends by age in a social network. */
 object FriendsByAge {
